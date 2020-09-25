@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<heml>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div>hello</div>
+        <div>
+            <button onclick="clickGetTimes()">点我获取当前时间</button>
+        </div>
+        <span id="v"></span>
+        <script>
+            console.log(111)
+            function clickGetTimes() {
+                console.log(222)
+                let dom = document.querySelectorAll('#v')[0]
+                let data = new Date().getMonth() + '月' + new Date().getDay() + '日' 
+                dom.innerText = data
+            }
+        </script>
+    </body>
+</heml>
