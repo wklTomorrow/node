@@ -2,12 +2,17 @@
   "name": "msgseal-developer-platform",
   "version": "0.1.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "serve": "node vue-ssr/main.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.5",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.6",
+    "vue-server-renderer": "^2.6.12"
   },
   "devDependencies": {},
   "eslintConfig": {},
